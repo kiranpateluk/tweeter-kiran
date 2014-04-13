@@ -6,5 +6,5 @@ class User < ActiveRecord::Base
   
   has_many :tweets
   include Gravtastic
-  gravtastic
+  gravtastic default: :wavatar
 end
