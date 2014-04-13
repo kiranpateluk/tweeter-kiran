@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
-
+# bootstrap
+gem 'bootstrap-sass', '~> 3.1.1'
+#user account
 gem 'devise'
 # suggested web server from Heroku
 gem 'unicorn'
