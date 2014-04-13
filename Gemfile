@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
 
+gem 'devise'
 # suggested web server from Heroku
 gem 'unicorn'
 # to fix error
