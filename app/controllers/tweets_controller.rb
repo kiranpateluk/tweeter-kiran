@@ -24,7 +24,7 @@ before_action :authenticate_user!
   # POST /tweets
   # POST /tweets.json
   def create
-    @tweet = Tweet.new(tweet_params)
+    @tweet = current_user.tweets.new(tweet_params)
 
     respond_to do |format|
       if @tweet.save
