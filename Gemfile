@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.0.0'
+
+#gravtastic for gravertor stuff
+gem 'gravtastic'
 # bootstrap
 gem 'bootstrap-sass', '~> 3.1.1'
 #user account
